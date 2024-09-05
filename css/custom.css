@@ -1,0 +1,71 @@
+/* profile image styling */
+.user-image {
+    border: 5px solid #ffffff; /* Adjust the border thickness and color as needed */
+    padding: 5px; /* Optional: Adds space between the image and the border */
+    transition: border-color 0.3s ease; /* Optional: Adds smooth transition effect */
+  }
+
+  .user-image:hover {
+    border-color: #94efff; /* Optional: Changes the border color on hover */
+  }
+
+
+/* Card styling */
+.medfriend-card, .art-gallery-card, .another-card {
+    border-width: 0px;
+    border-radius: 10px;
+    color: rgb(211, 211, 211);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/* Specific background colors */
+.medfriend-card {
+    background-color: rgb(117, 72, 46);
+}
+
+.art-gallery-card {
+    background-color: rgba(0, 247, 255, 0.699);
+}
+
+.another-card {
+    background-color: rgb(212, 75, 75);
+}
+
+
+/* Ensuring images respect border radius */
+.card img {
+    border-radius: 10px 10px 0 0;
+}
+
+
+body {
+    background-color: rgb(20, 20, 20) /* Replace with your desired color */
+}
+
+html {
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+/* Ensure the carousel spans the full width of its container */
+.carousel {
+    width: 100%;
+    margin: 0 auto; /* Center the carousel within its container */
+    
+}
+
+/* Remove extra padding and margin around the images */
+.carousel-item img {
+    width: 100%;  /* Ensures the image covers the full width of the item */
+    height: 600px; /* Adjusts the height based on the width */
+}
+
+.btn{
+    border-width: 0px;
+    background-color: #94efff; 
+    color: black;
+}
+
+.btn:hover{
+    background-color: black;
+}
