@@ -5,9 +5,9 @@
     transition: border-color 0.3s ease; /* Optional: Adds smooth transition effect */
   }
 
-  .user-image:hover {
+.user-image:hover {
     border-color: #94efff; /* Optional: Changes the border color on hover */
-  }
+}
 
 
 /* Card styling */
@@ -21,15 +21,15 @@
 
 /* Specific background colors */
 .medfriend-card {
-    background-color: rgb(117, 72, 46);
+    background-color: rgb(0, 0, 0);
 }
 
 .art-gallery-card {
-    background-color: rgba(0, 247, 255, 0.699);
+    background-color: rgba(0, 0, 0, 0.699);
 }
 
 .another-card {
-    background-color: rgb(212, 75, 75);
+    background-color: rgb(0, 0, 0);
 }
 
 
@@ -69,3 +69,4 @@ html {
 .btn:hover{
     background-color: black;
 }
+
